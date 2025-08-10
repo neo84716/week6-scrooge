@@ -1,0 +1,30 @@
+.avatar{
+    width: 44px;
+    height: 44px;
+}
+
+.img-login-reverse{
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.bg-login{
+    background-image: url("/assets/images/about/login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+}
+
+.bg-login-reverse{
+    background-image: url("/assets/images/about/register.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+}
+@media(max-width: 768px){
+    .logo{
+        height: 44px;
+    }
+}
