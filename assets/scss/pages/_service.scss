@@ -1,0 +1,48 @@
+.banner-person{
+    bottom: -8px;
+    right: calc(50% - 520px);
+}
+
+.word-radius{
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.active{
+    border: 2px solid #36C99F;
+    border-radius: 24px;
+}
+
+.half-bg{
+    background: linear-gradient(
+        to bottom,
+        var(--bs-natural-95) 50%, /* 上半背景色 */
+        transparent 50%
+      );
+}
+
+.w856{
+    width: 856px;
+}
+.bg-service{
+    width: 600px;
+    height: 160px;
+    background-image: url("/assets/images/service/subscribe-3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    border-top-right-radius: 32px;
+    z-index: 0;
+}
+
+.subscribe-1{
+    position: absolute;
+    left: calc(50% - 404px);
+    bottom: 0;
+}
+
+.subscribe-2{
+    position: absolute;
+    right: calc(50% - 404px);;
+    bottom: 0;
+}
